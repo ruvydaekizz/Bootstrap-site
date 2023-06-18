@@ -1,0 +1,144 @@
+/*dosyadakiler değiştirildi*/
+.resimSlider {
+  height: 700px;
+  width: 300px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  padding-top: 50px;
+}
+.header {
+  background-image: url(cekirdek2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.kahveler {
+  background-color: white;
+}
+.liste {
+  margin-left: -40px;
+}
+.ayrac {
+  border: none;
+  border-top: 3px solid #343a40;
+  max-width: 250px;
+  margin: 25px auto;
+}
+.kbeyaz {
+  color: #343a40;
+  position: relative;
+  top: -58px;
+  font-size: 35px;
+  border: 10px solid white;
+  background-color: white;
+}
+.hakkimizda {
+  background-color: #f2f2f2;
+}
+.ayrac1 {
+  border: none;
+  border-top: 3px solid #343a40;
+  max-width: 250px;
+  margin: 25px auto;
+}
+.hgri {
+  color: #343a40;
+  position: relative;
+  top: -58px;
+  font-size: 35px;
+  border: 10px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+.ekibimiz {
+  background-color: white;
+}
+.ayrac2 {
+  border: none;
+  border-top: 3px solid #343a40;
+  max-width: 250px;
+  margin: 25px auto;
+}
+.ebeyaz {
+  color: #343a40;
+  position: relative;
+  top: -58px;
+  font-size: 35px;
+  border: 10px solid white;
+  background-color: white;
+}
+.ekipCard > img:hover {
+  opacity: 0.8;
+}
+
+.galeri {
+  background-color: #f2f2f2;
+}
+.ayrac3 {
+  border: none;
+  border-top: 3px solid #343a40;
+  max-width: 250px;
+  margin: 25px auto;
+}
+.ggri {
+  color: #343a40;
+  position: relative;
+  top: -58px;
+  font-size: 35px;
+  border: 10px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+.ekipCard1 > img:hover {
+  opacity: 0.8;
+}
+.ekipCard2 > img:hover {
+  overflow: hidden;
+}
+.figure:hover {
+  opacity: 0.8;
+}
+
+.iletisim {
+  background-color: white;
+}
+.ınput {
+  margin-left: 300px;
+  margin-right: 300px;
+  width: 50em;
+  size: 40px;
+}
+.label {
+  margin-bottom: -25px;
+  padding-left: 40%;
+}
+.ınput1 {
+  margin-left: 300px;
+  margin-right: 300px;
+  width: 50em;
+  size: 40px;
+}
+
+.ibeyaz {
+  color: #343a40;
+  position: relative;
+  top: -50px;
+  font-size: 35px;
+  border: 10px solid white;
+  background-color: white;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+.gonder {
+  margin-left: 200px;
+  padding: auto;
+}
+.btnrenk {
+  background-color: dodgerblue;
+  color: #f2f2f2;
+  border: 15px;
+  padding: 15px;
+  margin-left: 870px;
+}

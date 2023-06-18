@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="Css/style.css" />
+
+    <title>Kahve Durağı</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/a20137ea65.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--Menü kısmı başlangıç-->
+    <div class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">KAHVE DURAĞI</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#carouselExampleIndicators"
+                >Anasayfa</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kahveçeşidi">Kahve Çeşitleri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hakkimizda">Hakkımızda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ekibimiz">Ekibimiz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeri">Galeri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#iletisim">İletişim</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Menü kısmı bitiş-->
+
+    <!--Slider Başlangıç-->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="true"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="img/coffee6.jpg"
+            class="d-block w-100 resimSlider"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/coffee3.jpg"
+            class="d-block w-100 resimSlider"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/coffee7.jpg"
+            class="d-block w-100 resimSlider"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--Slider Bitiş-->
+    <!--Kahveler Başlangıç-->
+
+    <section class="p-5 text-center kahveler " id="kahveçeşidi">
+      <h2 class="mb-5 font-weight-bold">Kahveler Çeşitleri</h2>
+      <hr class="ayrac" />
+      <i class="fa-solid fa-mug-hot kbeyaz"></i>
+      <!--Icon ekleme-->
+     <div class="liste " >
+      <ul class="text-align-center">Latte</ul>
+      <ul class="text-align-center">Mocha</ul>
+      <ul class="text-align-center">Espresso</ul>
+      <ul class="text-align-center">Cappuccino</ul>
+      <ul class="text-align-center">Americano</ul>
+      <ul class="text-align-center">Türk Kahvesi</ul>
+      <ul class="text-align-center">Filtre Kahve</ul>
+    </div>
+    </section>
+    <!--Kahveler Bitiş-->
+
+    <!--Hakkımızda Başlangıç-->
+    <section class="p-5 text-center hakkimizda" id="hakkimizda">
+      <div class="container">
+        <h2 class="mb-5 font-weight-bold">Hakkımızda</h2>
+        <hr class="ayrac1" />
+        <i class="fa-solid fa-mug-hot hgri"></i>
+        <!--Icon ekleme-->
+
+        <p>
+          Hepimizin Ortak Noktası Kahveden çikolataya, unlu mamülden dondurmaya
+          bini aşan ürün çeşidimiz ve makul fiyatlarımızla herkesin ulaşabildiği
+          'Hepimizin Ortak Noktası' 2004 yılında İstanbul’un Eminönü semtinde
+          açtığımız ilk mağazamızla yakaladığımız büyüme ivmesini, her geçen gün
+          daha da artırarak Türkiye’nin 34’ten fazla şehrine ulaştık. 2011
+          yılında Londra, Piccadilly Circus’ta açtığımız ilk yurt dışı
+          mağazamıza gördüğümüz ilgiye karşılık olarak, ülke dışındaki
+          girişimlerimize de hız verdik. Bugün yerli ve yabancı tüm
+          tüketicilerimizin beğeni ve taleplerinden aldığımız güçle Türkiye,
+          İngiltere, Romanya, Kuveyt ve Suudi Arabistan’da yer alan 200’den
+          fazla mağaza ile toplam 450’den fazla noktada müşterilerimizle
+          buluşuyoruz. Tüm mağazalarımızın işletmesini kendimiz üstlenerek
+          kalitemizi garanti altına alıyoruz. Türkiye’de bir benzeri olmayan
+          kahve mağazacılığı anlayışıyla, sattığımız ve servis ettiğimiz tüm
+          kahve, çikolata, dondurma ve unlu mamul çeşitlerinde kendi üretimimiz
+          olmayan hiçbir ürünü müşterilerimize sunmuyoruz. Kaliteli ve lezzetli
+          ürün yelpazemiz ve kusursuz servisimizle, Türk kahvesi ve diğer özgün
+          lezzetimizi, Türk ikram geleneği ve konukseverliğini sergileyerek
+          dünyaya tanıtmaya devam ediyoruz.
+        </p>
+
+        <p>
+         <h5 class="text-center">Vizyon </h5> Kaliteli, yenilikçi ve farklı ürünler yaratan, 
+          Türk kahve ve ikram kültürünü, Türkiye’nin yanı sıra tüm dünyada tüketicilerle
+          buluşturup, müşterilerin kendilerini iyi hissedeceği ve keyifle tüketeceği 
+          ortamlarda sunarak, sektöründe en beğenilen ve tercih edilen marka olmak. 
+          <br>
+          <br>
+          <h5 class="text-center">Misyon</h5>Doğru kalite-fiyat oranını sağlayarak,
+          geniş ürün yelpazesiyle tüketici beklentilerini en üst düzeyde
+          karşılamak.
+        </p>
+      </div>
+    </section>
+
+    <!--Hakkımız Bitiş-->
+
+    <!--Ekibimiz Başlangıç-->
+    <section class="p-5 text-center ekibimiz" id="ekibimiz">
+      <div class="container">
+        <h2 class="mb-5 font-weight-bold">Ekibimiz</h2>
+        <hr class="ayrac2" />
+        <i class="fa-solid fa-mug-hot ebeyaz"></i
+        ><!--Icon ekleme-->
+        <div class="row row-cols-1 row-cols-md-4 g-3">
+          <div class="col">
+            <div class="card h-100 shadow ekipCard">
+              <img src="img/ekip6.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Ahmet Karahan</h5>
+                <p class="card-text">İşletmeci</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow ekipCard">
+              <img src="img/ekip5.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Ayşe Kutlu</h5>
+                <p class="card-text">Genel Müdür</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow ekipCard">
+              <img src="img/ekip2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Başak Kurt</h5>
+                <p class="card-text">Personel</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow ekipCard">
+              <img src="img/ekip6.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Mustafa Özdemir</h5>
+                <p class="card-text">Garson</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-3">
+          <div class="col">
+            <div class="card h-100 shadow ekipCard mt-3">
+              <img src="img/ekip5.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Betül Avcı</h5>
+                <p class="card-text">Garson</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow ekipCard mt-3">
+              <img src="img/ekip4.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Can Mertcan</h5>
+                <p class="card-text">Barista</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow ekipCard mt-3">
+              <img src="img/ekip5.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Başak Kurt</h5>
+                <p class="card-text">Personel</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow ekipCard mt-3">
+              <img src="img/ekip2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Enes Mutlu</h5>
+                <p class="card-text">Garson</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Ekibimiz Bitiş-->
+
+    <!--Galeri Başlangıç-->
+    <section class="p-5 text-center galeri" id="galeri">
+      <div class="container">
+        <h2 class="mb-5 font-weight-bold">Galeri</h2>
+        <hr class="ayrac3" />
+        <i class="fa-solid fa-mug-hot ggri"></i
+        ><!--Icon ekleme-->
+        <div class="row">
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="img/coffee10.jpg">
+                <img
+                  src="img/coffee10.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+
+            <div class="col-md-3">
+              <figure class="figure">
+                <a href="img/coffee14.jpg">
+                  <img
+                    src="img/coffee14.jpg"
+                    class="figure-img img-fluid rounded shadow"
+                    alt="..."
+                  />
+                </a>
+              </figure>
+            </div>
+
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="img/mekan7.jpg">
+                <img
+                  src="img/mekan7.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="img/mekan3.jpg">
+                <img
+                  src="img/mekan3.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="img/mekan5.jpg">
+                <img
+                  src="img/mekan5.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="img/mekan4.jpg">
+                <img
+                  src="img/mekan4.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="img/coffee14.jpg">
+                <img
+                  src="img/coffee14.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="img/mekan3.jpg">
+                <img
+                  src="img/mekan3.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-3">
+                <figure class="figure">
+                  <a href="img/mekan4.jpg">
+                    <img
+                      src="img/mekan4.jpg"
+                      class="figure-img img-fluid rounded shadow"
+                      alt="..."
+                    />
+                  </a>
+                </figure>
+              </div>
+  
+            <div class="col-md-3">
+              <figure class="figure">
+                <a href="img/coffee10.jpg">
+                  <img
+                    src="img/coffee10.jpg"
+                    class="figure-img img-fluid rounded shadow"
+                    alt="..."
+                  />
+                </a>
+              </figure>
+            </div>
+  
+            <div class="col-md-3">
+              <figure class="figure">
+                <a href="img/mekan7.jpg">
+                  <img
+                    src="img/mekan7.jpg"
+                    class="figure-img img-fluid rounded shadow"
+                    alt="..."
+                  />
+                </a>
+              </figure>
+            </div>
+  
+            <div class="col-md-3">
+              <figure class="figure">
+                <a href="img/mekan4.jpg">
+                  <img
+                    src="img/mekan4.jpg"
+                    class="figure-img img-fluid rounded shadow"
+                    alt="..."
+                  />
+                </a>
+              </figure>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!--Galeri Bitiş-->
+
+    <!--İletişim Başlangıç-->
+    <section class="p-5 text-center iletisim" id="iletisim">
+      <div class="container">
+        <h2 class="mb-5 font-weight-bold">İletişim</h2>
+        <hr class="ayrac4" />
+        <i class="fa-solid fa-mug-hot ibeyaz"></i
+        ><!--Icon ekleme-->
+
+        <form action="" class="col-md-10 text-left m-auto">
+            <div class="form-group row">
+              <label for="" class="col-md-4 align-self-center label">Ad:</label>
+              <input type="text" class=" col-md-8 ınput">
+            </div>
+            <div class="form-group row">
+              <label for="" class="col-md-4 align-self-center label">Soyad:</label>
+              <input type="text" class=" col-md-8 ınput">
+            </div>
+            <div class="form-group row">
+              <label for="" class="col-md-4 align-self-center label">E-mail:</label>
+              <input type="email" class=" col-md-8 ınput">
+            </div>
+            <div class="form-group row">
+              <label for="" class="col-md-4 align-self-center label">Mesajınız:</label>
+              <textarea name="" id="" cols="30" rows="10" class="col-md-8 ınput1"></textarea>
+            </div>
+
+            <button id="btn" class="btnrenk">GÖNDER</button>
+            <div id="goster" ></div>
+
+            <script>
+              var goster=document.querySelector("#goster")
+              btn.onclick=function(){
+                alert('Mesajınız iletilmiştir') 
+              }
+            </script>
+        </form>
+      </div>
+    </section>
+    <!--İletişim Bitiş-->
+
+    <!--Footer Başlangıç-->
+     <div class="bg-dark text-light text-center">
+      <p class="align-middle p-5 mb-0">
+        <span>Tüm Hakları Saklıdır &copy; | 2022</span> <br>
+        <span>Designed by <b>Kahve Durağı</b></span>
+      </p>
+     </div>
+
+    <!--Footer Bitiş-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+    </div>
+  </body>
+</html>
